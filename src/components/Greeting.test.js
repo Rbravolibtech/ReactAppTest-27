@@ -28,7 +28,7 @@ test('renders changed! if the button was clicked', () => {
     
     //Act
     const buttonElement = screen.getByRole('button')
-userEvent.click(buttonElement)
+    userEvent.click(buttonElement)
 
 //Assert
 
