@@ -12,7 +12,7 @@ const Greeting = () => {
 
     return(
         <div>
-            <h2>HELLO WORLD</h2>
+            <h2 className="hello">HELLO WORLD</h2>
           { !changedText&& <Output> ITS GOOD TO SEE YOU</Output>}
           { changedText &&  <Output>CHANGED!</Output>}
             <button onClick={changedTextHandler}>CHANGE TEXT</button>

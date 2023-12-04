@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hello {
+ 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: blue ;
+  text-shadow: 2px 2px 4px #000000;
+  text-shadow:
+  2px 2px 2px #f8e800,
+  -2px -2px 2px #00aeff;
+ 
+}
